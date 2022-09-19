@@ -74,6 +74,22 @@ nav{
     color: white;
 }
 
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section .gauche {
+    width: 30%;
+    margin: 20px 50px;
+}
+
+section .droite {
+    display: flex;
+    flex-flow: column;
+    max-width: 50%;
+}
+
 .site-footer
 {
   background-color:#26272b;
